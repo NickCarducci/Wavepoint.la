@@ -1,0 +1,43 @@
+{
+  "display": "standalone",
+  "scope": "./",
+  "short_name": "Thumbprint.us",
+  "description": "Social Calendar and End-To-End-Encryption Communications",
+  "screenshots": [
+    {
+      "src": "https://www.dl.dropboxusercontent.com/s/5hzvnr4wp3uwvet/ManifestMap.jpeg?dl=0",
+      "type": "image/jpeg",
+      "sizes": "516x1116.67"
+    },
+    {
+      "src": "https://www.dl.dropboxusercontent.com/s/kpd464pv7kevp4n/ManifestForum.jpeg?dl=0",
+      "type": "image/jpeg",
+      "sizes": "516x1116.67"
+    }
+  ],
+  "name": "Community Explorer",
+  "background_color": "#9749ff",
+  "icons": [
+    {
+      "src": "https://www.dl.dropboxusercontent.com/s/9oci4efa4zsh90q/Thumbprint_logo.png?dl=0",
+      "sizes": "64x64 32x32 24x24 16x16 192x192 194x194 512x512",
+      "type": "image/ico"
+    }
+  ],
+  "start_url": "/",
+  "theme_color": "#9749ff",
+  "shortcuts": [
+    {
+      "name": "Home",
+      "url": "/",
+      "description": "Find-things-outside-scope",
+      "short_name": "FTOS",
+      "icons": [
+        {
+          "src": "https://www.dl.dropboxusercontent.com/s/9oci4efa4zsh90q/Thumbprint_logo.png?dl=0",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+.proplistredux{
+  display: flex;
+  flex-wrap:wrap;
+  width:100%;
+  z-index: -1;
+}
+.relativeprops{
+  display: flex;
+  position:relative;
+  text-align: center;
+  align-items: flex-start;
+  font-size: 26px;
+  color:white;
+  top:0px;
+  width:100vw;
+  max-height:40vh;
+  overflow: hidden;
+  text-decoration: none;
+  z-index: -1;
+  border-top:3px rgb(250, 250, 250) solid;
+}
+.eachprop{
+  display:flex;
+  position: relative;
+  align-items:flex-start;
+  width:100vw;
+  max-height:40vh;
+}
+.imageprop{
+  display: flex;
+  position: relative;
+  left: 50%;
+  width:100%;
+  height:auto;
+  z-index: -101;
+  transform: translateX(-50%);
+  /*background-size: cover;*/
+}
+.proposaltitle{
+  display: flex;
+  position:relative;
+  padding:13.2617px 30px;
+  border-radius: 10px;
+  justify-content: center;
+  z-index: 100;
+  bottom:0px;
+  left:50%;
+  font-size: 26px;
+  color:white;
+  text-decoration: none;
+  background-color:rgba(51, 51, 51, 0.855);
+  transform:translate(-50%,-100%);
+}
+.proposaltitleshort{
+  display: flex;
+  position:relative;
+  padding:13.2617px 30px;
+  border-radius: 10px;
+  justify-self: center;
+  z-index: 100;
+  bottom:0px;
+  margin:auto;
+  font-size: 26px;
+  color:white;
+  text-decoration: none;
+  background-color:rgba(51, 51, 51, 0.855);
+  transform:translate(0%,-100%);
+}
+.timeofprop {
+  display: flex;
+  position:absolute;
+  background-color: rgba(0, 0, 0, 0.555);
+  padding-top: 30px;
+  padding-left: 20px;
+  width:100%;
+  color: white;
+  font-size: 26px;
+  text-decoration: none;
+}
+.todaytomorrowprop {
+  display: flex;
+  position:absolute;
+  padding-left: 20px;
+  padding-top: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+@media (min-width: 1200px) { 
+
+  .eachprop{
+    border:5px rgb(250, 250, 250) solid;
+  }
+  .timeofprop {
+    width:570px;
+  }
+  .proposaltitle{
+    width:530px;
+    bottom:10px;
+  }
+  .proposaltitleshort{
+    bottom:10px;
+  }
+  .relativeprops{
+    max-width:600px;
+  }
+  .imageprop{
+    width:none;
+    }
+}
+
+@media (max-width: 1200px) { 
+  .relativeprops{
+    width:100%;
+  }
+  }

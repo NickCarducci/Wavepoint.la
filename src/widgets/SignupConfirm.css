@@ -1,0 +1,173 @@
+.signupConfirmVideo{
+  display:flex;
+}
+.signupConfirmHidden{
+  display:none;
+transform:translateX(100%)
+}
+.raisesignup{
+  display:flex;
+position:fixed;
+z-index:10000;
+}
+.hidesignup{
+  display:flex;
+position:fixed;
+z-index: 10000;
+}
+.showsignup{
+  display:flex;
+position:fixed;
+z-index: 100;
+transform: translateY(100%)
+}
+.signupvideo{
+  display:flex;
+  position:fixed;
+  height:auto;
+  max-height:100%;
+  max-width:100%;
+}
+.playpausebutton{
+  display:flex;
+  position:fixed;
+  bottom: 30px;
+right: 30px;
+border-radius:30px;
+background-color: white;
+color:#333;
+padding:10px;
+justify-content: center;
+align-items: center;
+}
+.playpausebuttonhidden{
+  display:flex;
+  position:fixed;
+  bottom: 30px;
+right: 30px;
+border-radius:30px;
+background-color: white;
+color:#333;
+padding:10px;
+justify-content: center;
+align-items: center;
+transform:translateY(100%);
+}
+.closesignupvideobutton{
+  display:flex;
+  position:fixed;
+  bottom: 30px;
+  left:50%;
+  transform:translateX(-50%);
+border-radius:30px;
+background-color: white;
+color:#333;
+padding:10px;
+}
+.closesignupvideobuttonhidden{
+  display:flex;
+  position:fixed;
+  bottom: -830px;
+  left:50%;
+  transform:translate(-50%, 100%);
+border-radius:30px;
+background-color: white;
+color:#333;
+padding:10px;
+}
+.videoscroller{
+    display:flex;
+    position:fixed;
+flex-direction: column;
+    bottom: 30px;
+  left: 30px;
+  height:250px;
+  width:30px;
+  border-radius: 35px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: white;
+  color:#333;
+  padding:10px;
+  justify-content: center;
+  align-items: center;
+
+}
+.videoscrollerhidden{
+    display:flex;
+    position:fixed;
+flex-direction: column;
+  left: 30px;
+  height:250px;
+  width:30px;
+  border-radius: 35px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: white;
+  color:#333;
+  padding:10px;
+  justify-content: center;
+  align-items: center;
+transform: translateY(200%);
+}
+.signUpPushToplay{
+  display:flex;
+  position:fixed;
+  justify-content: center;
+  align-items:center;
+  top:0px;
+  left:0px;
+  z-index: 10;
+  height:100vh;
+  width:100vw;
+  background-color:rgba(51, 51, 51, 0.473)
+}
+.signUpPushToplayhidden{
+  display:flex;
+  position:fixed;
+  justify-content: center;
+  align-items:center;
+  top:0px;
+  left:0px;
+  z-index: 10;
+  height:100vh;
+  width:100vw;
+  background-color:rgba(51, 51, 51, 0.473);
+  transform:translateY(100%);
+}
+.alternativephoto{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+}
+.alternativephotohidden{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -101;
+  transform:translateY(100%);
+  background-size: cover;
+}
+.signbackground-video{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 10;
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+}

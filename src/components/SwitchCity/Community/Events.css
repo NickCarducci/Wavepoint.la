@@ -1,0 +1,250 @@
+@media (min-width: 1200px) {
+  .eachevent {
+    border: 5px rgb(250, 250, 250) solid;
+  }
+  .timeofevent {
+    width: 570px;
+  }
+  .eventtitle {
+    bottom: 10px;
+  }
+  .eventtitleshort {
+    bottom: 10px;
+  }
+  .relativeevents {
+    max-width: 500px;
+  }
+  .imageevent {
+    width: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .relativeevents {
+    width: 100%;
+  }
+}
+
+.relativeevents {
+  display: flex;
+  position: relative;
+  text-align: center;
+  font-size: 26px;
+  color: white;
+  top: 56px;
+  width: auto;
+  max-height: 40vh;
+  overflow: hidden;
+  text-decoration: none;
+  z-index: 1;
+  border-top: 3px rgb(250, 250, 250) solid;
+}
+.eventlistreduxback {
+  display: flex;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  flex-wrap: wrap;
+  width: 70vw;
+  z-index: 1;
+  text-decoration: none;
+}
+.stopemphasis {
+  text-decoration: none;
+}
+.eachevent {
+  display: flex;
+  position: relative;
+  max-height: 40vh;
+}
+.imageevent {
+  display: flex;
+  position: relative;
+  left: 50%;
+  width: 100%;
+  height: auto;
+  z-index: -101;
+  transform: translateX(-50%);
+  /*background-size: cover;*/
+}
+.eventtitle {
+  display: flex;
+  position: absolute;
+  padding: 13.2617px 30px;
+  border-radius: 10px;
+  justify-content: center;
+  z-index: 100;
+  bottom: 0px;
+  margin-right: 20px;
+  font-size: 26px;
+  color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  text-decoration: none;
+  background-color: rgba(51, 51, 51, 0.855);
+}
+.eventtitlelonger {
+  display: flex;
+  position: absolute;
+  padding: 13.2617px 30px;
+  border-radius: 10px;
+  justify-content: center;
+  z-index: 100;
+  bottom: 0px;
+  width: 90%;
+  margin-right: 20px;
+  font-size: 26px;
+  color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  text-decoration: none;
+  background-color: rgba(51, 51, 51, 0.855);
+}
+.eventtitleshort {
+  display: flex;
+  position: relative;
+  padding: 13.2617px 30px;
+  border-radius: 10px;
+  justify-self: center;
+  z-index: 100;
+  bottom: 0px;
+  margin: auto;
+  font-size: 26px;
+  color: white;
+  text-decoration: none;
+  background-color: rgba(51, 51, 51, 0.855);
+  transform: translate(0%, -100%);
+}
+.timeofevent {
+  display: flex;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding-top: 30px;
+  padding-left: 20px;
+  width: 100%;
+  color: white;
+  font-size: 26px;
+  text-decoration: none;
+}
+.todaytomorrowevent {
+  display: flex;
+  position: absolute;
+  padding-left: 20px;
+  padding-top: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.previousfuturetoggle {
+  display: flex;
+  position: relative;
+  background-color: rgb(0, 162, 255);
+  color: white;
+  border-radius: 10px;
+  height: 56px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+.previousfuturetogglefixed {
+  display: flex;
+  position: relative;
+  background-color: rgb(0, 162, 255);
+  color: white;
+  border-radius: 10px;
+  top: 56px;
+  height: 56px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+.backtotoday {
+  display: flex;
+  position: fixed;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  border: 1px solid #333;
+  bottom: 85px;
+  right: 0px;
+  height: 56px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.eventsfilter {
+  position: fixed;
+  top: 0;
+  right: 56px;
+  height: 56px;
+  width: 56px;
+  z-index: 1000;
+}
+.square_dotevents {
+  position: fixed;
+  top: 0;
+  right: 0px;
+  height: 56px;
+  width: 56px;
+  z-index: 1002;
+}
+.square_dot_typesevents {
+  position: fixed;
+  top: 0;
+  right: 0px;
+  height: 56px;
+  width: 56px;
+  z-index: 1009;
+}
+.sendoffscreen {
+  display: flex;
+  position: absolute;
+  transform: translateX(100%);
+}
+.itsfine {
+  display: flex;
+  position: absolute;
+  transform: translateX(0%);
+}
+.starfavorite {
+  display: flex;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+}
+.noeventsahh {
+  display: flex;
+  position: fixed;
+  z-index: 3000;
+  color: white;
+  font-size: 26px;
+  top: 15px;
+  right: 80px;
+}
+.hiddenwarnnotype {
+  display: flex;
+  position: fixed;
+  top: 76px;
+  width: 100px;
+  color: white;
+  height: auto;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 30px;
+  background-image: radial-gradient(
+    rgba(0, 0, 0, 0.878),
+    rgba(25, 81, 97, 0.748)
+  );
+}
+
+.hiddenwarnnotype div {
+  display: flex;
+  position: relative;
+  color: white;
+}

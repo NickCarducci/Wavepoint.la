@@ -1,0 +1,66 @@
+.create-drawer-backdrop {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 6000;
+  top: 0;
+  right: 0;
+}
+.slide-drawer {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  height: auto;
+  width: 90%;
+  top: 30px;
+  left: 50%;
+  z-index: 6001;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 80px;
+  border-radius: 45px;
+  background-color: white;
+  box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+  transform: translate(-50%, 0);
+  transition: transform 0.3s ease-in;
+}
+.slide-drawer.closed {
+  display: none;
+  transform: translateY(100%);
+  transform: translateX(-50%);
+  transition: transform 0.3s ease-out;
+}
+.createphotoset {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.createphoto {
+  display: flex;
+  position: relative;
+  width: 95%;
+  height: auto;
+  max-width: 200px;
+  top: 3px;
+  border-radius: 30px;
+}
+.profileopener {
+  display: flex;
+  position: fixed;
+  width: 100px;
+  height: 56px;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 9000;
+  justify-content: center;
+  align-items: center;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 30px;
+}

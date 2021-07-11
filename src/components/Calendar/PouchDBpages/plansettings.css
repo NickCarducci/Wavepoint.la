@@ -1,0 +1,212 @@
+.New_EventSettings_Header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  z-index: 3;
+  top: 0%;
+  width: 100%;
+  border: none;
+  height: 56px;
+  background-color: #be52ff;
+  color: rgba(255, 255, 255, 0.644);
+  font-size: 26px;
+}
+.settings-drawer { 
+  display:flex;
+  position: fixed;
+  height: 30%;
+  background: white;
+  box-sizing: border-box;
+  top:0px;
+  width: 100%;
+  height:100%;
+  z-index: 200;
+  flex-direction: column;
+  /*justify-content: center;
+  text-align: center;
+  align-items: center;*/
+  box-shadow: 1px 0px 7px rgba(0,0,0,0.5); 
+  transition: transform 0.3s ease-out;
+  transform:translateX(100%);
+}
+.settings-drawer.open {
+  position: fixed;
+  transform: translateX(-50%);
+  left:50%;
+}
+.plan-form-details {
+  display: flex;
+  position: relative;
+  height: 300px;
+  max-height: 30vh;
+  width: 80%;
+  top: 76px;
+  left:50%;
+  transform: translateX(-50%);
+  color: #444;
+  font-size: 26px;
+  padding: 26px;
+}
+.addtickets {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  background-color: #333;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  min-height:116px;
+  top:110px;
+  left:50%;
+  transform: translateX(-50%);
+  color: #777;
+  font-size: 23px;
+  border-radius: 20px;
+  z-index: 1000;
+}
+.addticketsbtn{
+  cursor: pointer;
+  display: flex;
+  position:relative;
+  justify-content: center;
+  align-items: center;
+  width:200px;
+  height:56px;
+  border-radius: 50px;
+  box-shadow: 1px 0px 3px rgba(0,0,0,0.5);
+  background-color: white;
+  font-size: 23px;
+}
+.ticketsandvenues{
+display:flex;
+flex-wrap: wrap;
+flex-direction: row;
+}
+.usersListedCharts{
+  display: flex;
+  position: relative;
+  background-color: #333;
+  color: white;
+  padding: 30px;
+  margin: 5px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  border-radius: 20px;
+  z-index: 300;
+}
+.addvenue{
+  display: flex;
+  position:relative;
+  justify-content: center;
+  align-items: center;
+  width:200px;
+  height:56px;
+  left:50%;
+  margin-bottom:30px;
+  box-shadow: 1px 0px 3px rgba(0,0,0,0.5);
+  background-color:rgb(100, 184, 253);
+  color:white;
+  border-radius: 30px;
+  transform: translate(-50%, 0);
+  font-size: 23px;
+}
+.addticketsclosebox{
+  display:flex;
+  position:relative;
+  flex-direction: row;
+  height:56px;
+  width:200px;
+  top:30px;
+  left:50%;
+  transform: translateX(-50%);
+  border:1px #777 solid;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items:center;
+  border-radius:3px;
+}
+.addticketsclosex{
+  cursor: pointer;
+  display: flex;
+  position:relative;
+  top:-5px;
+  font-size: 46px;
+  color:#777;
+}
+.addticketsclose{
+  cursor: pointer;
+  display: flex;
+  position:relative;
+  align-items:center;
+  font-size: 26px;
+  color:#777;
+}
+.ticketinfonew {
+  display: flex;
+  position: relative;
+  left: 45%;
+  border-radius: 3px;
+  border: none;
+  transform: translateX(-50%);
+  font-size: 14px;
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+}
+.ticketinfonew::placeholder {
+  color: black;
+}
+.seatsio{
+  display: flex;
+  position:absolute;
+  height: 100%;
+  width: 100%;
+  top: 56px;
+  left:50%;
+  transform: translate(-50%, 0);
+  z-index: 1010;
+}
+.backdrop {
+  display: flex;
+  position: fixed;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 10;
+  top: 0;
+  right: 0;
+}
+.separate {
+  position: fixed;
+}
+.backnew {
+  position: fixed;
+  height: 56px;
+  width: 56px;
+  left: 0px;
+  z-index: 4;
+}
+
+.savedescription{
+  position:fixed;
+  background-color: rgb(165, 88, 228);
+  color: white;
+  left:50%;
+  top: 46%;
+  width: 30%;
+  height:76px;
+  font-size: 26px;
+  transform: translate(-50%, 0);
+}
+.safari.keyboard {
+  bottom: 270px;
+}
+.safari input[type="text"] {
+  font-size: 16px;
+}
