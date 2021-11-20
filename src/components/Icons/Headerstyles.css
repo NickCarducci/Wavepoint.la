@@ -1,0 +1,227 @@
+.Planner_Header {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  z-index: 2;
+  border: none;
+  text-indent: 88px;
+  padding-left: 2%;
+  height: 56px;
+  width: 100%;
+  background-color: rgb(20, 20, 20);
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 26px;
+}
+.Planner_HeaderPurp {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  z-index: 2;
+  border: none;
+  text-indent: 88px;
+  padding-left: 2%;
+  height: 56px;
+  width: 100%;
+  background-color: #7e73fa;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 26px;
+}
+.Planner_HeaderGree {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  z-index: 2;
+  border: none;
+  text-indent: 88px;
+  padding-left: 2%;
+  height: 56px;
+  width: 100%;
+  background-color: rgb(150, 200, 150);
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 26px;
+}
+.Events_Header {
+  display: flex;
+  position: absolute;
+  border: none;
+  text-indent: 88px;
+  padding-left: 2%;
+  right: 0px;
+  height: 56px;
+  width: 66%;
+  background-color: #be52ff;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 26px;
+}
+.Accounts_Header {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  border: none;
+  text-indent: 88px;
+  padding-left: 2%;
+  height: 56px;
+  width: 100%;
+  background-color: #844fff;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 26px;
+}
+.Switch_CMap_Header {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border: none;
+  text-indent: 10px;
+  height: 56px;
+  left: 15%;
+  width: 85%;
+  background-color: rgba(20, 20, 20, 0.4);
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 23px;
+}
+@media (min-width: 800px) {
+  .Switch_CMap_Header {
+    font-size: 26px;
+  }
+}
+@media (max-width: 500px) {
+  .Switch_CMap_Header {
+    font-size: 20px;
+  }
+}
+
+.logo_large {
+  position: fixed;
+  height: 56px;
+  width: 56px;
+}
+.community {
+  position: fixed;
+  top: 7px;
+  left: 6px;
+  height: 42px;
+  width: 42px;
+}
+.profile_pic1 {
+  position: fixed;
+  height: 56px;
+  width: 56px;
+}
+.switch_accounts {
+  position: fixed;
+  top: 10.5px;
+  right: 12px;
+  height: 36px;
+  width: 36px;
+}
+.switch_accounts1 {
+  position: fixed;
+  top: 10.5px;
+  right: 12px;
+  height: 36px;
+  width: 36px;
+}
+.search1 {
+  position: fixed;
+  left: 48px;
+  height: 56px;
+  width: 56px;
+}
+.filter {
+  position: fixed;
+  top: 0;
+  right: 56px;
+  height: 56px;
+  width: 56px;
+}
+.filter1 {
+  position: fixed;
+  top: 0;
+  right: 56px;
+  height: 56px;
+  width: 56px;
+}
+.filter_tiles {
+  position: fixed;
+  top: 0;
+  right: 56px;
+  height: 56px;
+  width: 56px;
+  z-index: 1009;
+}
+.invitesl_large {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  height: 56px;
+  width: 56px;
+  z-index: 2;
+}
+.square_dot {
+  position: fixed;
+  top: 0;
+  right: 0px;
+  height: 56px;
+  width: 56px;
+}
+.square_dot_types {
+  position: fixed;
+  top: 0;
+  right: 0px;
+  height: 56px;
+  width: 56px;
+}
+.back {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  height: 56px;
+  width: 56px;
+}
+.location {
+  position: fixed;
+  top: 7px;
+  right: 6px;
+  height: 42px;
+  width: 42px;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+.clicklandercityfalse {
+  transform: translateX(100%);
+  transition: 0.3s ease-in;
+}
+.city_header {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 36px;
+  width: 36px;
+}
+.border_header {
+  position: absolute;
+  height: 56px;
+  width: 56px;
+}
+.stars_header {
+  position: absolute;
+  top: 11px;
+  left: 10px;
+  height: 36px;
+  width: 36px;
+}
+.sky_header {
+  position: absolute;
+  top: 8px;
+  left: 7px;
+  height: 42px;
+  width: 42px;
+}

@@ -1,0 +1,23 @@
+.picker-drawer {
+  display: flex;
+  height: 30%;
+  background: white;
+  box-sizing: border-box;
+  position: fixed;
+  padding: 10px;
+  width: 90%;
+  left: 5%;
+  z-index: 200;
+  border-radius: 45px;
+  /*text-align: center;
+  align-items: center;*/
+  align-self: center;
+  justify-content: center;
+  box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+  transform: translateY(400%);
+  transition: transform 0.3s ease-out;
+}
+.picker-drawer.open {
+  transform: translateY(250%);
+  position: absolute;
+}

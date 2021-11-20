@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="manifest" href="./manifest.json" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="64x64 32x32 24x24 16x16 192x192 194x194 512x512"
+      href="https://www.dl.dropboxusercontent.com/s/cp1vzypyfh1sb03/Thumbprint%20corp%20logo%20-%20colors_round%20%282%29.png?dl=0"
+    />
+    <link
+      rel="mask-icon"
+      href="https://www.dl.dropboxusercontent.com/s/wr18b30c65finkp/safari-pinned-tab.svg?dl=0"
+      color="#a34ed2"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://www.dl.dropboxusercontent.com/s/9oci4efa4zsh90q/Thumbprint_logo.png?dl=0"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="https://www.dl.dropboxusercontent.com/s/d4k7pgbzwn96bo8/Thumbprint_banner.gif?dl=0"
+    />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-title" content="Thumbprint.us" />
+    <meta name="application-name" content="Thumbprint.us" />
+    <meta name="msapplication-TileColor" content="#603cba" />
+    <meta
+      name="msapplication-TileImage"
+      content="https://www.dl.dropboxusercontent.com/s/cp1vzypyfh1sb03/Thumbprint%20corp%20logo%20-%20colors_round%20%282%29.png?dl=0"
+    />
+    <meta name="theme-color" content="#a34ed2" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="height=device-height, width=device-width, initial-scale=1.0"
+    />
+    <title>Thumbprint</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+    <script src="https://unpkg.com/react-popper/dist/index.umd.js"></script>
+    <script src="https://cdnjs.deepai.org/deepai.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/63e0779ba0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/blob-util/dist/blob-util.min.js"></script>
+    <!--<link rel="stylesheet" href="https://js.arcgis.com/4.17/esri/themes/dark-blue/main.css">
+    <script src="https://js.arcgis.com/4.17/"></script>-->
+    <!--<link
+      rel="stylesheet"
+      href="https://js.arcgis.com/4.20/@arcgis/core/assets/esri/themes/light/main.css"
+    />-->
+    <!--<script type="module">
+      import Map from "https://js.arcgis.com/4.20/@arcgis/core/Map.js";
+
+      // Use the Map class
+    </script>-->
+    -->
+  	<link id="external-css" rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato&amp;display=swap" media="all">
+</head>
+
+  <body>
+    <!--<div>
+      <form onsubmit="Submit(e)">
+        <input
+          id="root"
+          style="position: absolute; display: flex;"
+          onclick="Jailout(ent)"
+        />
+      </form>
+    </div>-->
+    <div type="text/babel" id="root"></div>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <!--onclick="JailParse(ent)"--
+    <script>
+      function Submit(e) {
+        e.preventDefault();
+      }
+    </script>
+    <script>
+      import fs from "fs";
+      window.fs = fs;
+    </script>-->
+    <!--has <script/> tagged
+    <script type="text/javascript">
+      const Enscript = (src) => {
+        document.createElement("script");
+        script.type = "text/javascript";
+        script.src = src;
+        document.head.appendChild(script);
+      };
+    </script>--><!--<script defer src="./jail.js"></script>-->
+    <!--
+      <script type="text/javascript" src="../public">
+        //function Jailout(ent){return Jail(...ent)}
+        const rE = document.getElementById("root");
+        //rE.onclick.apply(rE);
+        rE.addEventListener("click", (ent) => {
+          // return Jail(...ent)
+        });
+        Enscript("./ARoot.js");
+      </script>
+      -->
+    <!--npm link ../myapp/node_modules/react from mylib
+      or alias: {
+              react: path.resolve('./node_modules/react')
+            }
+      -->
+
+    <!--You actually only need eval() if your code is a string containing the <script> tag-->
+    <script type="text/babel" src=".././src/init-firebase.js"></script>
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+  </body>
+</html>
+<!--body-->
+<!--<script src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"></script>
+    <script src="https://unpkg.com/three@0.106.2/build/three.min.js"></script>
+    <script src="https://unpkg.com/three@0.106.2/examples/js/loaders/GLTFLoader.js"></script>
+
+    <script src="https://apis.google.com/js/api.js" async defer></script>-->
+<!--//function JailParse(ent) { Jail(...ent) }
+      //const rootElem = document.getElementById("root");
+      //rootElem.addEventListener("click")
+      //rootElem.addClass("Shawshank")-->
+<!--
+Import it with require
+
+const fs = require('fs')
+If it throws the error saying require is not defined, enable node integration in your main process, this will allow your window to use Node's require function:
+
+mainWindow = new BrowserWindow({
+  ...
+  webPreferences: {
+    nodeIntegration: true
+  }
+}) -->

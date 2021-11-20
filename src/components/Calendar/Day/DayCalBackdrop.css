@@ -1,0 +1,357 @@
+.cal_backdrop {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  top: 0;
+  right: 0;
+}
+.monthyear {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 26px;
+  max-width: 25vw;
+}
+.calendaricon {
+  position: fixed;
+  padding-left: 15px;
+  padding-top: 15px;
+  height: 45px;
+  width: 45px;
+}
+.arrowleft {
+  position: fixed;
+  top: 42.5%;
+  padding-left: 15px;
+  padding-top: 15px;
+  height: 45px;
+  width: 45px;
+}
+.arrowright {
+  position: fixed;
+  top: 42.5%;
+  right: 0px;
+  padding-right: 15px;
+  padding-top: 15px;
+  height: 45px;
+  width: 45px;
+}
+.month {
+  padding-top: 55px;
+  padding-right: 5px;
+  font-size: 20px;
+  color: rgb(206, 206, 206);
+  width: 56px;
+}
+.year {
+  font-size: 14px;
+  color: rgb(165, 165, 165);
+  width: 56px;
+}
+.weekdayday {
+  justify-items: right;
+  padding-left: 12px;
+  font-size: 26px;
+  width: 56px;
+  max-width: 25vw;
+}
+.weekday {
+  padding-top: 12px;
+  font-family: "Muli", sans-serif;
+  font-size: 20px;
+  max-width: 15vw;
+  min-width: 0;
+  padding-right: 6px;
+}
+.day {
+  padding-left: 12px;
+  font-family: "Muli", sans-serif;
+  font-size: 30px;
+  max-width: 15vw;
+  min-width: 0;
+}
+.daysuntil {
+  justify-self: left;
+  padding-top: 15px;
+  font-family: "Muli", sans-serif;
+  font-size: 26px;
+  width: 200px;
+  min-width: 0px;
+}
+.plancount {
+  justify-self: left;
+  font-size: 17px;
+  color: #777;
+  width: max-content;
+}
+.close {
+  position: absolute;
+  display: grid;
+  align-items: flex-end;
+  left: 50%;
+  bottom: 0.1%;
+  transform: translate(-50%, 0%);
+  justify-self: center;
+  font-size: 26px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.weeklyl {
+  display: flex;
+  align-self: flex-end;
+  justify-self: left;
+  font-size: 26px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  text-align: center;
+}
+.weeklyr {
+  display: flex;
+  align-self: flex-end;
+  justify-self: right;
+  font-size: 26px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+.weeklyskip {
+  display: flex;
+  align-self: flex-end;
+  justify-content: space-between;
+}
+
+.clockdial {
+  position: fixed;
+  z-index: 2;
+  max-height: 70vh;
+  max-width: 90%;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+.clockborder {
+  position: fixed;
+  z-index: 1;
+  max-height: 70vh;
+  max-width: 90%;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+.placeArcOnClock {
+  display: flex;
+  position: fixed;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(180deg);
+}
+.containclock {
+  display: flex;
+  position: fixed;
+  z-index: 2;
+  max-width: 120px;
+}
+.placePlansOnClock {
+  display: flex;
+  position: absolute;
+  z-index: 9999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(180deg);
+}
+.planfilter {
+  position: fixed;
+  top: 0;
+  right: 56px;
+  height: 56px;
+  width: 56px;
+}
+.plantitle {
+  padding: 4px;
+  max-width: 140px;
+  width: 40vw;
+  display: flex;
+  position: relative;
+  border-radius: 10px;
+  justify-content: center;
+
+  bottom: 0px;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  background-color: rgba(51, 51, 51, 0.855);
+}
+@media (max-width: 600px) {
+  .plantitle {
+    padding: 4px;
+    max-width: 140px;
+    width: 40vw;
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    justify-content: center;
+
+    bottom: 0px;
+    font-size: 16px;
+    color: white;
+    max-width: 70%;
+    text-decoration: none;
+    background-color: rgba(51, 51, 51, 0.855);
+  }
+}
+@media (max-width: 310px) {
+  .plantitle {
+    padding: 4px;
+    max-width: 140px;
+    width: 40vw;
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    justify-content: center;
+
+    bottom: 0px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(51, 51, 51, 0.855);
+  }
+}
+
+.notes-list-date {
+  display: grid;
+  color: #777;
+  left: 5;
+  font-size: 0.9em;
+}
+.notes-list-title {
+  display: grid;
+  color: #777;
+  font-size: 0.9em;
+}
+.boundtimes {
+  display: flex;
+  justify-content: column;
+  padding: 5px;
+  height: 110px;
+  color: white;
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 600px) {
+  .boundtimes {
+    display: flex;
+    justify-content: column;
+    padding: 5px;
+    height: 110px;
+    left: 0px;
+    color: white;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+}
+@media (max-width: 310px) {
+  .boundtimes {
+    display: flex;
+    justify-content: column;
+    padding: 5px;
+    height: 110px;
+    left: 0px;
+    color: white;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+}
+.imageplan {
+  display: flex;
+  position: relative;
+  left: 50%;
+  width: 100%;
+  height: auto;
+  z-index: -101;
+  transform: translateX(-50%);
+  /*background-size: cover;*/
+}
+.imageplanclosed {
+  display: flex;
+  position: relative;
+  left: 50%;
+  width: 100%;
+  height: auto;
+  z-index: -101;
+  transform: translateX(-50%);
+  /*background-size: cover;*/
+}
+/*@media (min-width: 1200px) {
+  .relplans {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .relplans {
+    width: 100%;
+  }
+}*/
+
+.relplans {
+  background-color: rgb(20, 27, 34);
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  text-align: center;
+  align-items: flex-end;
+  font-size: 26px;
+  min-height: 56px;
+  color: white;
+  top: 0px;
+  width: auto;
+  max-height: 40vh;
+  text-decoration: none;
+}
+.planlistreduxback {
+  display: flex;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  flex-wrap: wrap;
+  width: 70vw;
+  z-index: 1;
+  text-decoration: none;
+}
+.eachplan {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-height: 40vh;
+  min-height: 70px;
+  color: white;
+}
+
+@media (min-width: 600px) {
+  .eachplan {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px rgb(250, 250, 250) solid;
+    max-width: 300px;
+    min-height: 70px;
+    color: white;
+  }
+  .timeofplan {
+    width: 570px;
+  }
+  .plantitleshort {
+    bottom: 10px;
+  }
+  .imageplan {
+    width: none;
+  }
+}

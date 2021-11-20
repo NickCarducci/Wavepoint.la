@@ -1,0 +1,4 @@
+[build.environment]
+  MASTERCARD_CONSUMER_KEY = ""
+  MASTERCARD_P12_BINARY = ""
+  NODE_ENV = "production"

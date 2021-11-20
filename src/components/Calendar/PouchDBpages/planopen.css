@@ -1,0 +1,209 @@
+.planeditpage {
+  display: flex;
+  height: 100%;
+  background: white;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  /*text-align: center;
+  align-items: center;*/
+  box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+.topevent {
+  display: flex;
+  position: fixed;
+  z-index: 1000;
+}
+.note-created {
+  font-size: 0.9em;
+  color: #aaa;
+  z-index: 1000;
+}
+
+.note-edit {
+  position: fixed;
+  margin-left: 10px;
+  top: 120px;
+  font-size: 26px;
+  z-index: 1000;
+}
+.note-open {
+  position: fixed;
+  display: flex;
+  top: 56px;
+  height: 56px;
+  width: 100%;
+  color: #444;
+  font-size: 26px;
+  padding-left: 17px;
+  z-index: 1000;
+}
+.backopen {
+  position: fixed;
+  height: 56px;
+  width: 56px;
+  right: 0px;
+  transform: rotate(180deg);
+  z-index: 9999;
+}
+.settings33 {
+  position: fixed;
+  padding-top: 10px;
+  padding-left: 13px;
+  height: 36px;
+  width: 36px;
+  left: 0px;
+  z-index: 10000;
+}
+.edit-drawer {
+  display: flex;
+  height: 30%;
+  background: white;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  /*text-align: center;
+  align-items: center;*/
+  box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-out;
+  z-index: 1000;
+}
+.edit-drawer.open {
+  transform: translateX(0%);
+  position: absolute;
+  z-index: 1000;
+}
+.Plan_Header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border: none;
+  height: 56px;
+  width: 100%;
+  background-color: white;
+  color: rgb(66, 82, 87);
+  font-size: 26px;
+  border: rgb(66, 82, 87) 1px solid;
+  z-index: 1000;
+}
+.planbody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.planstarttime {
+  position: relative;
+  top: 56px;
+  width: 400px;
+  text-align: center;
+  padding: 20px;
+  font-size: 26px;
+  z-index: 1000;
+}
+.plandescription {
+  display: flex;
+  position: relative;
+  top: 56px;
+  text-align: center;
+  padding: 20px;
+  font-size: 26px;
+  z-index: 1000;
+}
+.note-formedit {
+  position: fixed;
+  display: flex;
+  align-items: space-between;
+  height: 56px;
+  color: #444;
+  font-size: 26px;
+  z-index: 1000;
+}
+.labelplanopen {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  top: 76px;
+  width: 100%;
+  border: none;
+  height: 56px;
+  width: 100%;
+  background-color: none;
+  color: rgba#333;
+  font-size: 26px;
+  z-index: 1000;
+}
+.save {
+  z-index: 3;
+  position: fixed;
+  display: flex;
+  margin-left: 1%;
+  top: 0.85%;
+  justify-self: left;
+  font-size: 26px;
+  z-index: 9999;
+}
+.cancel {
+  z-index: 3;
+  position: fixed;
+  display: flex;
+  margin-right: 10px;
+  top: 12px;
+  font-size: 26px;
+  right: 0%;
+  z-index: 9999;
+}
+.PlanEdit_Description {
+  position: fixed;
+  display: relative;
+  height: 30%;
+  width: 80%;
+  top: 68px;
+  left: 50%;
+  color: #444;
+  font-size: 26px;
+  padding-left: 56px;
+  transform: translate(-50%, 0);
+  z-index: 1000;
+}
+
+.dateordelete {
+  display: flex-wrap;
+  position: fixed;
+  left: 50%;
+  top: 45%;
+  justify-content: center;
+  height: 56px;
+  color: #444;
+  font-size: 26px;
+  transform: translate(-50%, 0);
+  z-index: 1000;
+}
+.note-delete {
+  display: flex;
+  position: relative;
+  justify-self: center;
+  font-size: 26px;
+  z-index: 1000;
+}
+.deletebtn {
+  position: fixed;
+  bottom: 0px;
+  height: 56px;
+  width: 76px;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 26px;
+  z-index: 1000;
+}

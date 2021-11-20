@@ -1,0 +1,194 @@
+.chatter {
+  display: flex;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  bottom: 0px;
+}
+.enclosechatter {
+  display: flex;
+  position: relative;
+  background-color: rgb(10, 10, 10);
+  width: 100%;
+  height: 100%;
+  top: 56px;
+  left: 0px;
+  z-index: 5;
+  transform: translateX(0%);
+  transition: transform 0.3s ease-out;
+}
+.enclosechatterhide {
+  display: flex;
+  position: fixed;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  transform: translateX(-180%);
+  transition: transform 0.3s ease-out;
+}
+.backgochat {
+  display: flex;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  padding-left: 20px;
+  height: 56px;
+  z-index: 9999;
+  background-color: rgba(23, 27, 232, 0.734);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.chatboxfilterby {
+  display: flex;
+  position: relative;
+  text-align: left;
+  width: 100%;
+  border: 1px solid #333;
+  padding: 20px;
+  background-color: rgba(106, 40, 206, 0.687);
+}
+.chatboxfilterby div {
+  position: absolute;
+}
+.chatboxfilterby div div {
+  position: relative;
+  text-indent: 6px;
+  padding: 10px;
+}
+.sendbutton {
+  display: flex;
+  position: fixed;
+  height: 26px;
+  width: 40%;
+  margin: 10px auto;
+  bottom: 90px;
+  left: 12px;
+  border: 1px solid #333;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  width: 80px;
+}
+
+.tilesselectedprofile {
+  display: flex;
+  position: relative;
+  top: 0px;
+  width: 97%;
+  padding: 5px;
+  height: auto;
+  max-width: 600px;
+  border-radius: 30px;
+}
+.chatname {
+  display: flex;
+  position: relative;
+  top: 0px;
+  align-items: center;
+  height: auto;
+  border-bottom: 1px #999 solid;
+  border-bottom: 1px #999 solid;
+  color: black;
+  z-index: 5;
+}
+.chatname1 {
+  display: flex;
+  position: relative;
+  top: 0px;
+  align-items: center;
+  height: auto;
+  border-bottom: 1px #999 solid;
+  color: white;
+  z-index: 5;
+  padding: 10px;
+}
+.chatname div {
+  display: flex;
+  color: white;
+  z-index: 5;
+  padding: 0px;
+}
+.chatname div div {
+  display: flex;
+  color: white;
+  z-index: 5;
+  padding: 0px;
+}
+.connectionsignaloff {
+  /*content: " \25CF";*/
+  font-size: 25px;
+  color: #333;
+  margin-right: 35px;
+}
+
+.connectionsignalon {
+  /*content: " \25CF";*/
+  font-size: 25px;
+  color: rgb(19, 163, 53);
+  margin-right: 35px;
+}
+
+.backtotoday1 {
+  display: flex;
+  position: absolute;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  border: 1px solid #333;
+  bottom: 85px;
+  right: 0px;
+  height: 56px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.editphone::placeholder {
+  color: grey;
+}
+
+.eventtypesset1 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-wrap: wrap;
+  top: 30px;
+  width: 100%;
+  height: min-content;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.linkfinder {
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  color: rgb(50, 50, 50);
+}
+.linkfinder a {
+  color: grey;
+  font-size: 5px;
+}
+
+.linkfinderother {
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  color: rgb(50, 50, 50);
+}
+.picker_popup {
+  height: 100%;
+  width: 100%;
+}
+.picker_container {
+  height: 100%;
+  width: 100%;
+}
+.closetopicforeground {
+  background-color: rgba(51, 51, 51, 0);
+  position: absolute;
+  width: 100%;
+  height: calc(100% + 1200px);
+  z-index: 5;
+}
